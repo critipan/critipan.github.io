@@ -7,3 +7,4 @@ var cxt=canvas.getContext("2d");
 cxt.fillStyle="ffffff";
 cxt.fillRect(200,200,350,275);
 console.log("代码已执行");
+document.write("代码已执行");
