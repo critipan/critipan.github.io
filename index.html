@@ -12,7 +12,7 @@
 	<link rel="icon" href="img/icon.png" type="img/x-icon">
 </head>
 
-<body bgcolor="yellow">
+<body bgcolor="#8f8f8f">
 	<h1 align="center">练习1</h1>
 	<hr color="#ff0000">
 	<button type="button" id="button01" onClick="document.getElementById('button01').innerHTML(Date())">
@@ -22,13 +22,18 @@
 	<p id="text01" onClick="document.getElementById('button02').style.display='block'; ">
 		这里有好像有什么东西？？？点一下看看！！！
 	</p>
-	<button type="button" id="button02" style="display: none" onClick="document.getElementById('button02').style.display='none';">
+	<button type="button" id="button02" style="display: none"
+		onClick="document.getElementById('button02').style.display='none';">
 		隐藏的按钮
 	</button>
 
 	<hr color="#00ff00">
-	<h1 align="center">练习2</h1>
-	<img src="img/icon.png">
+	<h1 align="center">
+		<a href="html/defult.html">
+			练习2
+		</a>
+	</h1>
+	<img src="img/icon.png" width="100px" height="100px">
 
 
 </body>
@@ -36,11 +41,10 @@
 <body>
 	<p>第二body</p>
 	<hr color="#0000ff">
-	<h1 align="center">练习3：canvas绘图</h1>
-	<p>测试2</p>
-	<canvas id="myCanvas"  width="device-width" height="initial-scale=1">此浏览器不支持canvas</canvas>
+	<h1 align="center"><a href="http://www.baidu.com/">练习3：canvas绘图</a></h1>
+	<canvas id="myCanvas" width="device-width" height="device-width">此浏览器不支持canvas</canvas>
 	<script src="js/myCanvas.js"></script>
-	
+
 
 </body>
 
