@@ -14,13 +14,15 @@
 <body>
 	<h1 align="center">练习1</h1>
 	<hr color="red">
-	<button type="button" id="button01" onClick="document.write(Date())">这是一个按钮:时间</button>
+	<button type="button" id="button01" onClick="document.getElementById('button01').innerHTML(Date())">
+		这是一个按钮:时间
+	</button>
 	<p>JavaScript+HTML+CSS+网站练习</p>
 	<p id="text01" onClick="document.getElementById('button02').style.display='block'; ">
 		这里有好像有什么东西？？？点一下看看！！！
 	</p>
 	<button type="button" id="button02" style="display: none" onClick="document.getElementById('button02').style.display='none';">
-	隐藏的按钮
+		隐藏的按钮
 	</button>
 	
 	<hr color="red">
