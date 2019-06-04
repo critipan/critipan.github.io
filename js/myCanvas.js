@@ -4,7 +4,5 @@ var canvas=document.getElementById("myCanvas");
 var cxt=canvas.getContext("2d");
 //绘制一个红色的矩形
 //设置颜色
-cxt.fillStyle="ffffff";
+cxt.fillStyle="00ff00";
 cxt.fillRect(200,200,350,275);
-console.log("代码已执行");
-document.write("代码已执行");
