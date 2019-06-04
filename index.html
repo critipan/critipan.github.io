@@ -1,13 +1,30 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>个人主页</title>
+	<!--设置字符集格式-->
+	<meta charset="utf-8">
+	<!--设置网页适配方式-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--设置网页标题-->
+	<title>critipan</title>
+	<!--设置网页icon-->
+	<link rel="icon" href="img/icon.png" type="img/x-icon">
 </head>
 
 <body>
-	<button type="button">这是一个按钮</button>
+	<h1 align="center">练习1</h1>
+	<hr color="red">
+	<button type="button" id="button01" onClick="">这是一个按钮</button>
 	<p>JavaScript+HTML+CSS+网站练习</p>
-	<p id="text01" onclick="document.getElementById('text01').innerHTML= '啊哈！这里什么都没有（手动滑稽)'">这里有好像有什么东西？？？点一下看看！！！</p>
+	<p id="text01" onClick="document.getElementById('button02').style.display='block'; ">
+		这里有好像有什么东西？？？点一下看看！！！
+	</p>
+	<button type="button" id="button02" style="display: none" onClick="document.getElementById('button02').style.display='none';">
+	隐藏的按钮
+	</button>
+	
+	<hr color="red">
+	<h1 align="center">练习2</h1>
+	
 </body>
 </html>
