@@ -6,3 +6,4 @@ var cxt=canvas.getContext("2d");
 //设置颜色
 cxt.fillStyle="ffffff";
 cxt.fillRect(200,200,350,275);
+console.log("代码已执行")
