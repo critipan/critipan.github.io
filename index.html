@@ -31,7 +31,17 @@
 	<hr color="bule">
 	<h1 align="center">练习3：canvas绘图</h1>
 	<canvas id="myCanvas" width="400px" height="400px">此浏览器不支持canvas</canvas>
-	<script type="js/index_js_canvas.js"
+	<!---<script type="js/index_js_canvas.js"></script>-->
+	<script type="text/javascript">
+	//获取画布
+var canvas=document.getElementById("myCanvas");
+//创建context对象
+var cxt=canvas.getContext("2d");
+//绘制一个红色的矩形
+//设置颜色
+cxt.fillStyle="#ff0000";
+cxt.fillRect(0,0,150,75);
+	</script>
 	
 </body>
 </html>
