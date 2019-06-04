@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
 	<!--设置字符集格式-->
 	<meta charset="utf-8">
@@ -24,14 +25,15 @@
 	<button type="button" id="button02" style="display: none" onClick="document.getElementById('button02').style.display='none';">
 		隐藏的按钮
 	</button>
-	
+
 	<hr color="red">
 	<h1 align="center">练习2</h1>
 	<img src="img/icon.png">
-	<hr color="bule">
+	<hr color="block">
 	<h1 align="center">练习3：canvas绘图</h1>
+	<p>测试1</p>
 	<canvas id="myCanvas" width="400px" height="400px">此浏览器不支持canvas</canvas>
-	<!---<script type="js/index_js_canvas.js"></script>-->
+	<script type="js/index_js_canvas.js"></script>
 	<script type="text/javascript">
 	//获取画布
 var canvas=document.getElementById("myCanvas");
@@ -42,6 +44,8 @@ var cxt=canvas.getContext("2d");
 cxt.fillStyle="#ff0000";
 cxt.fillRect(0,0,150,75);
 	</script>
-	
+
+
 </body>
+
 </html>
