@@ -6,7 +6,3 @@ var cxt=canvas.getContext("2d");
 //设置颜色
 cxt.fillStyle="#ffffff";
 cxt.fillRect(0,0,1920,1080);
-for(var i=0;i<1000;i++){
-    document.write(i+"\n");
-    console.log(i);
-}
