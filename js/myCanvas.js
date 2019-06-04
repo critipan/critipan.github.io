@@ -5,4 +5,4 @@ var cxt=canvas.getContext("2d");
 //绘制一个红色的矩形
 //设置颜色
 cxt.fillStyle="00ff00";
-cxt.fillRect(200,200,350,275);
+cxt.fillRect(0,0,1920,1080);
